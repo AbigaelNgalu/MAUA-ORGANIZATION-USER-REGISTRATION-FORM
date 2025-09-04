@@ -1,32 +1,27 @@
-<form action="/submit-form" method="post">
-    <fieldset>
-        <legend>Contact Information</legend>
-        <p>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name" required>
-        </p>
-        <p>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="user_email" required>
-        </p>
-    </fieldset>
+├── index.html
+└── README.md
+<title>Online HTML Editor</title>
+<head>
+</head>
+<body>
+<header>
+<div class="logo">
+<img src="logo.png" alt="Company Logo"></div>
+</header>
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Products</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+</nav>
 
-    <fieldset>
-        <legend>Payment Details</legend>
-        <p>
-            <label for="card_type">Credit Card Type:</label>
-            <select id="card_type" name="card_type">
-                <option value="visa">Visa</option>
-                <option value="mastercard">MasterCard</option>
-            </select>
-        </p>
-        <p>
-            <label for="card_number">Card Number:</label>
-            <input type="text" id="card_number" name="card_number" pattern="[0-9]{16}" title="16-digit card number" required>
-        </p>
-    </fieldset>
-
-    <p>
-        <button type="submit">Submit Form</button>
-    </p>
-</form>
+<section>
+<p>It is a paragraph</p>
+</section>
+<footer>
+&copy My website | 2023
+</footer>
+</body>
+</html>
