@@ -1,4 +1,4 @@
-# MAUA-ORGANIZATION-USE<form action="/submit-form" method="post">
+<form action="/submit-form" method="post">
     <fieldset>
         <legend>Contact Information</legend>
         <p>
@@ -29,4 +29,4 @@
     <p>
         <button type="submit">Submit Form</button>
     </p>
-</form>R-REGISTRATION-FORM
+</form>
